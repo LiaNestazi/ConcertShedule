@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">ConcertSchedule</string>
+    <string name="app_name_sep">Concert Schedule</string>
+    <string name="author">Lidzhigoryaeva Anastasia, 2021</string>
+    <string name="app_name_after">Афиша концертов в Москве</string>
+    <string name="to_continue">Чтобы продолжить, необходимо авторизоваться</string>
+    <string name="btn_sign_in">Войти</string>
+    <string name="btn_sign_up">Зарегистрироваться</string>
+    <string name="btn_change_pass">Изменить пароль</string>
+    <string name="email">E-mail</string>
+    <string name="login">Логин</string>
+    <string name="password">Пароль</string>
+    <string name="moderation">Moderator</string>
+    <string name="title">Title</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="place">Place</string>
+    <string name="price">Price</string>
+    <string name="sign_in_text">Войдите в свою учетную запись</string>
+    <string name="loading">Загрузка...</string>
+    <string name="title_activity_user_panel">UserPanelActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_sign_out">Выйти из аккаунта</string>
+
+    <string name="menu_concerts">Расписание концертов</string>
+    <string name="menu_change_pass">Изменить пароль</string>
+    <string name="menu_edit_db">Редактировать БД</string>
+    <string name="menu_moders">Модераторы</string>
+    <string name="menu_concerts_db">Концерты</string>
+
+    <string name="old_pass">Старый пароль</string>
+    <string name="new_pass">Новый пароль</string>
+    <string name="new_pass_confirm">Подтверждение пароля</string>
+</resources>

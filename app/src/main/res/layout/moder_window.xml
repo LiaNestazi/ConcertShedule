@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:cardElevation="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/moder_edit_view"
+            android:hint="@string/moderation"
+            android:inputType="number"
+            android:text=""
+            android:textColor="@android:color/primary_text_dark"
+            android:textColorHint="@color/main_blue"
+            android:textSize="20sp"
+            app:met_floatingLabel="normal"
+            app:met_baseColor="@color/main_blue"
+            app:met_primaryColor="@color/dark_blue"
+            app:met_errorColor="@color/error"
+            app:met_singleLineEllipsis="true"
+            app:met_helperText="Введите уровень доступа" />
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

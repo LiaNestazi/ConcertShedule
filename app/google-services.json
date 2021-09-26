@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "34619695147",
+    "project_id": "concertscheduleapp",
+    "storage_bucket": "concertscheduleapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34619695147:android:5588c53b779e0487ee4a6e",
+        "android_client_info": {
+          "package_name": "com.mycompany.concertschedule"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "34619695147-jk7l6gjon72hes7lr52dbkf7s9fbsqpk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mycompany.concertschedule",
+            "certificate_hash": "be06de719a6069172957479e64a379b325ae3a91"
+          }
+        },
+        {
+          "client_id": "34619695147-k7u7q92da99ms3ol33tgjk2ibcst6i25.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMhUm01pIiHg4rSk6LQVDKVe_A3fizy1E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "34619695147-k7u7q92da99ms3ol33tgjk2ibcst6i25.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

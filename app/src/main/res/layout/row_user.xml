@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="uid:"
+                android:fontFamily="@font/playfair_display"
+                android:textColor="@color/black"
+                android:layout_margin="5dp"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="key"
+                android:fontFamily="@font/playfair_display"
+                android:textColor="@color/black"
+                android:layout_margin="5dp"
+                android:textSize="15sp"
+                android:id="@+id/uid_view"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="email:"
+                android:fontFamily="@font/playfair_display"
+                android:textColor="@color/black"
+                android:layout_margin="5dp"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="email@email.com"
+                android:fontFamily="@font/playfair_display"
+                android:textColor="@color/black"
+                android:layout_margin="5dp"
+                android:textSize="15sp"
+                android:id="@+id/email_view"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="login:"
+                android:fontFamily="@font/playfair_display"
+                android:textColor="@color/black"
+                android:layout_margin="5dp"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="login"
+                android:fontFamily="@font/playfair_display"
+                android:textColor="@color/black"
+                android:layout_margin="5dp"
+                android:textSize="15sp"
+                android:id="@+id/login_view"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="admin:"
+                android:fontFamily="@font/playfair_display"
+                android:textColor="@color/black"
+                android:layout_margin="5dp"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:fontFamily="@font/playfair_display"
+                android:textColor="@color/black"
+                android:layout_margin="5dp"
+                android:textSize="15sp"
+                android:id="@+id/admin_view"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="moderator:"
+                android:fontFamily="@font/playfair_display"
+                android:textColor="@color/black"
+                android:layout_margin="5dp"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:fontFamily="@font/playfair_display"
+                android:textColor="@color/black"
+                android:layout_margin="5dp"
+                android:textSize="15sp"
+                android:id="@+id/moder_view"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
